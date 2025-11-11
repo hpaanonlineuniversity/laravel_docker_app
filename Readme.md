@@ -7,6 +7,9 @@ DB_DATABASE=laravel_db
 DB_USERNAME=laravel_user
 DB_PASSWORD=secret
 
+npm run install
+
+npm run build
 
 docker compose up -d
 
@@ -19,3 +22,12 @@ docker compose exec app php artisan storage:link
 စမ်းသပ်ကြည့်ရန်
 
     Website: http://localhost:8000
+
+Notes:
+
+    docker compose exec app composer install
+    docker compose exec app composer update
+    docker compose exec app composer install --no-dev
+
+    docker compose exec app php artisan make:migration create_product_table
+
