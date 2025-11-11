@@ -1,5 +1,5 @@
 # Alpine Linux သုံးမယ် - China mirrors အတွက်ပိုကောင်းတယ်
-FROM php:8.3-fpm-alpine
+FROM php:8.2-fpm-alpine
 
 
 # China mirrors for Alpine
