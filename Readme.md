@@ -31,5 +31,7 @@ Notes:
     docker compose exec app composer update
     docker compose exec app composer install --no-dev
 
-    docker compose exec app php artisan make:migration create_product_table
+    docker compose exec app php artisan make:migration create_products_table
+    docker compose exec app php artisan make:model product
+    docker compose exec app php artisan make:controller ProductController
 
