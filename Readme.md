@@ -1,11 +1,18 @@
 check .env file for database connection according to compose.yml
 
 DB_CONNECTION=mysql
+
 DB_HOST=mysql_db    # docker-compose.yml မှာပေးထားတဲ့ container_name နဲ့တူရမယ်
+
 DB_PORT=3306
+
 DB_DATABASE=laravel_db
+
 DB_USERNAME=laravel_user
+
 DB_PASSWORD=secret
+
+##########################################################################################################
 
 npm install
 
